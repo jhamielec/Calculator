@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div class="calculator">
+    <div class="screen"><a id="displayVal"></a></div>
+    <div class="keypad">
+        <div class="row">
+        <button class="key" id="clear" value="clear">clr</button>
+        <button class="key" id="delete" value="delete">del</button>
+        <button class="key operator" value="%">%</button>
+        <button class="key operator" value="/">/</button>
+        </div>
+        <div class="row">
+        <button class="key number" value='1'>1</button>
+        <button class="key number" value='2' data-key="50">2</button>
+        <button class="key number" value='3'>3</button>
+        <button class="key operator" value="*">*</button>
+        </div>
+        <div class="row">
+        <button class="key number" value='4'>4</button>
+        <button class="key number" value='5'>5</button>
+        <button class="key number" value='6'>6</button>
+        <button class="key operator" value="-">-</button>
+        </div>
+        <div class="row">
+        <button class="key number" value='7'>7</button>
+        <button class="key number" value='8'>8</button>
+        <button class="key number" value='9'>9</button>
+        <button class="key operator" value="+">+</button>
+        </div>
+        <div class="row">
+        <button class="key" id="decimal" value="decimal">.</button>
+        <button class="key number" value='0'>0</button>
+        <button class="key" id="negative" value="negative" >(-)</button>
+        <button class="key operator" value="=">=</button>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>

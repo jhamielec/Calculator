@@ -1,0 +1,83 @@
+* { /*border: red solid 2px;*/
+    background-color: lightgray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    border: 2px black solid;
+}
+
+.screen {
+    display:flex;
+    background-color:rgb(115, 146, 56);
+    border: 2px black solid;
+    justify-content: right;
+    font-size:48px;
+    min-height: 50px;
+    width:280px;
+    align-items: center;
+    padding:2px;
+    padding-right:10px;
+    margin:5px;
+    border-radius:5px;
+    
+}
+
+#displayVal {
+    background-color:rgb(115, 146, 56);
+}
+
+.keypad {
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    justify-content: center;
+    margin:10px;
+    border: 10px;
+    border-radius:15px;
+    
+}
+
+.row {
+    display:flex;
+    justify-content: space-between;
+    padding-right:10px;
+    padding-left: 10px;
+    background-color: rgb(41, 38, 38);
+}
+.key {
+    margin:5px;
+    display:flex;
+    font-size: 40px;
+    width:60px;
+    height:50px;
+    border-radius:5px;
+    background-color:lightblue;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.operator {
+    background-color: lightgreen;
+
+}
+
+#clear,#delete {
+    background-color: salmon
+}
+#negative,#decimal {
+    background-color: rgb(231, 191, 88)
+}
